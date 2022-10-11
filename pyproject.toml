@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-todo"
+version = "0.1.0"
+description = "Web app for tutorial"
+authors = ["kami-yuuuu <92091721+kami-yuuuu@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+requests = "^2.28.1"
+SQLAlchemy = "^1.4.41"
+flask-sqlalchemy = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
